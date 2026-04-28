@@ -1,0 +1,60 @@
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 60px;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Left */
+.left h2 {
+  color: #2a6df4;
+}
+
+.left p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Links */
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+/* Contact */
+.contact p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Bottom */
+.bottom {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 30px 20px;
+  }
+}
